@@ -1,4 +1,4 @@
-"use client"
+"use client";
 
 import { ThemeProvider } from "@/providers/ThemeProvider";
 import NavbarStyleApple from '@/components/navbar/NavbarStyleApple/NavbarStyleApple';
@@ -252,8 +252,8 @@ export default function Home() {
               imageSrc: "https://images.pexels.com/photos/4060364/pexels-photo-4060364.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
               imageAlt: "Victoria Sterling, General Manager",
               socialLinks: [
-                {icon: "Linkedin", url: "https://linkedin.com/in/victoria-sterling"},
-                {icon: "Mail", url: "mailto:victoria@luxuriahotel.com"}
+                {icon: Linkedin, url: "https://linkedin.com/in/victoria-sterling"},
+                {icon: Mail, url: "mailto:victoria@luxuriahotel.com"}
               ]
             },
             {
@@ -264,8 +264,8 @@ export default function Home() {
               imageSrc: "https://images.pexels.com/photos/6474521/pexels-photo-6474521.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
               imageAlt: "James Wellington, Chief Concierge",
               socialLinks: [
-                {icon: "Phone", url: "tel:+1234567890"},
-                {icon: "Mail", url: "mailto:concierge@luxuriahotel.com"}
+                {icon: Linkedin, url: "tel:+1234567890"},
+                {icon: Mail, url: "mailto:concierge@luxuriahotel.com"}
               ]
             },
             {
@@ -276,8 +276,8 @@ export default function Home() {
               imageSrc: "https://images.pexels.com/photos/6937472/pexels-photo-6937472.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
               imageAlt: "Chef Marcus Dubois, Executive Chef",
               socialLinks: [
-                {icon: "Instagram", url: "https://instagram.com/chefmarcusdubois"},
-                {icon: "Globe", url: "https://marcusdubois-chef.com"}
+                {icon: Linkedin, url: "https://instagram.com/chefmarcusdubois"},
+                {icon: Mail, url: "https://marcusdubois-chef.com"}
               ]
             }
           ]}
